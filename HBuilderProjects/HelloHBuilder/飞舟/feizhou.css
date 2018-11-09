@@ -1,0 +1,791 @@
+			* {
+				margin: 0;
+			}
+			
+			.clearfix:after{
+				content: '';
+				display: table;
+				clear: both;
+			}
+			body {
+				background: gainsboro;
+			}
+			
+			.heaher1 {
+				width: 100%;
+				height: 115px;
+				background-color: lightseagreen;
+			}
+			
+			.heaher1 div {
+				line-height: 100px;
+				text-align: center;
+				float: left;
+			}
+			
+			.heaher1-h {
+				margin-left: 350px;
+			}
+			
+			.heaher1-h1 {
+				margin-left: 10px;
+				margin-top: 15px;
+				transition: all 1s linear;
+			}
+			
+			.tt:hover .heaher1-h {
+				margin-left: 330px;
+				letter-spacing: 10px;
+			}
+			
+			.tt:hover .heaher1-h1 {
+				opacity: 0.3;
+			}
+			
+			.heaher1-hh {
+				width: 100%;
+				height: 51px;
+				background-color: grey;
+				line-height: 51px;
+			}
+			
+			.heaher1-hh div {
+				height: 51px;
+				width: 100px;
+				/*margin-left: 1px;*/
+				float: left;
+				border-left: 0.5px solid grey;
+				text-align: center;
+				line-height: 51px;
+				background: grey;
+				position: relative;
+			}
+			
+			.heaher1-hh a {
+				color: white;
+				font-size: 19px;
+				text-decoration: none;
+			}
+			
+			.heaher1-hh .shouye {
+				margin-left: 40px;
+				background: lightseagreen;
+			}
+			
+			.heaher1-hh .qita {
+				background: lightseagreen;
+			}
+			
+			.heaher1-hh div:hover {
+				background: lightseagreen;
+			}
+			
+			.heaher1-hh .ww {
+				background: lightseagreen;
+				display: none;
+				/*overflow: auto;*/
+			}
+			
+			.heaher1-hh div:hover .ww {
+				width: 99px;
+				/*overflow:auto;*/
+				overflow-x: hidden;
+				opacity: 0.8;
+				z-index: 999;
+				display: block;
+			}
+			
+			.heaher1-hh .other {
+				background: lightseagreen;
+				display: none;
+			}
+			
+			.heaher1-hh div:hover .other {
+				overflow-x: hidden;
+				opacity: 0.8;
+				z-index: 999;
+				display: block;
+			}
+			
+			.heaher1-hh .other:hover {
+				
+				background: grey;
+			}
+			
+			.heaher1-hh .ww:hover {
+				
+				background: grey;
+			}
+			
+			.find {
+				width: 40px;
+				position: absolute;
+		
+				left:435px
+			}
+			
+			.find input {
+				/*margin-top: -10px;
+				margin-left: -100px;*/
+				position: absolute;
+				top: 60px;
+				right: 20px;
+			}
+			
+			.ll {
+				margin-top: 5px;
+				margin-left: 35px;
+				height: 295px;
+				width: 130px;
+				/*border: 1px solid white;*/
+				overflow: hidden;
+				float: left;
+			}
+			
+			.ll0 {
+				margin-top: 11px;
+				/*margin-left: 35px;*/
+				height: 295px;
+				width: 130px;
+				/*border: 1px solid white;*/
+			}
+			
+			.ll0 div {
+				opacity: 0.6;
+				/*transition: all 2s linear;*/
+			}
+			
+			.ll0 div:hover {
+				transform: translateY(-2px);
+				opacity: 1;
+			}
+			
+			/*.hh1 {
+				height: 40px;
+				width: 500px;
+				float: left;
+			}*/
+			
+			.pp {
+				margin-top: 15px;
+				height: 285px;
+				width: 715px;
+				/*float: left;*/
+				overflow: hidden;
+			}
+			
+			.pp1 {
+				height: 1200px;
+				width: 11111px;
+				/*float: left;*/
+			}
+			
+			.div-f {
+				/*position: relative;*/
+				animation: divMove 8s linear infinite;
+			}
+			
+			@keyframes divMove {
+				from {
+					transform: translateY(0px);
+				}
+				to {
+					transform: translateY(-600px);
+				}
+			}
+			
+			.qq {
+				height: 45px;
+				width: 350px;
+				background: white;
+				/*border: 1px solid red;*/
+				position: absolute;
+				line-height: 45px;
+				text-align: center;
+				top: 205px;
+				right: 50px;
+			}
+			
+			.qq img {
+				float: left;
+				margin-top: 5px;
+				margin-left: 20px;
+			}
+			
+			.mail {
+				height: 160px;
+				width: 350px;
+				background: white;
+				/*border: 1px solid red;*/
+				position: absolute;
+				top: 260px;
+				right: 50px;
+			}
+			
+			.mail div {
+				margin-top: 20px;
+				margin-left: 10px;
+			}
+			
+			.mail a:hover {
+				opacity: 1;
+			}
+			
+			.mail2 {
+				border: 0.5px solid lightseagreen;
+			}
+			
+			.menm {
+				height: 200px;
+				width: 350px;
+				background: white;
+				/*border: 1px solid red;*/
+				position: absolute;
+				top: 430px;
+				right: 50px;
+				color: lightseagreen;
+			}
+			
+			.menm a {
+				color: lightseagreen;
+				text-decoration: none;
+			}
+			
+			.menm a:hover {
+				color: black;
+			}
+			
+			.menm div {
+				margin-top: 20px;
+				margin-left: 15px;
+			}
+			
+			.biaoqian {
+				height: 350px;
+				width: 350px;
+				background: white;
+				/*border: 1px solid red;*/
+				position: absolute;
+				top: 640px;
+				right: 50px;
+				color: lightseagreen;
+			}
+			
+			.biaoqian div {
+				margin-top: 20px;
+				margin-left: 15px;
+				opacity: 0.8;
+			}
+			
+			.biaoqian div:hover {
+				opacity: 1;
+			}
+			
+			.biaoqian a {
+				color: white;
+				text-decoration: none;
+			}
+			
+			.word {
+				height: 320px;
+				width: 350px;
+				background: white;
+				/*border: 1px solid red;*/
+				position: absolute;
+				top: 1000px;
+				right: 50px;
+				color: lightseagreen;
+			}
+			
+			.word div {
+				margin-top: 20px;
+				margin-left: 15px;
+			}
+			
+			.word a {
+				text-decoration: none;
+				color: lightseagreen;
+			}
+			
+			.word a:hover {
+				color: black;
+			}
+			
+			.ro {
+				height: 520px;
+				width: 350px;
+				background: white;
+				/*border: 1px solid red;*/
+				position: absolute;
+				top: 1325px;
+				right: 50px;
+				color: lightseagreen;
+			}
+			
+			.ro div {
+				margin-top: 20px;
+				margin-left: 15px;
+			}
+			
+			.ro a {
+				color: lightseagreen;
+				text-decoration: none;
+			}
+			
+			.ro a:hover {
+				color: red;
+			}
+			
+			.read {
+				height: 80px;
+				width: 350px;
+				background: white;
+				/*border: 1px solid red;*/
+				position: absolute;
+				top: 1860px;
+				right: 50px;
+				color: lightseagreen;
+			}
+			
+			.read div {
+				margin-top: 20px;
+				margin-left: 15px;
+			}
+			
+			.read-out {
+				height: 300px;
+				width: 350px;
+				background: white;
+				/*border: 1px solid red;*/
+				position: absolute;
+				top: 1950px;
+				right: 50px;
+				color: lightseagreen;
+			}
+			
+			.read-out div {
+				margin-top: 20px;
+				margin-left: 15px;
+			}
+			
+			.web-1 {
+				height: 200px;
+				width: 850px;
+				background: white;
+				/*border: 1px solid red;*/
+				position: absolute;
+				top: 520px;
+				left: 35px;
+				color: lightseagreen;
+			}
+			
+			.web-1 div {
+				margin-left: 15px;
+				margin-top: 5px;
+			}
+			
+			.web-1 a {
+				color: lightseagreen;
+				text-decoration: none;
+			}
+			
+			.web-1 a:hover{
+				color: black;
+			}
+			
+			.web-1 img {
+				transition: all 2s linear;
+			}
+			
+			.web-1 img:hover {
+				transform: scale(1.2);
+			}
+			
+			.web-1 span {
+				margin-left: 12px;
+			}
+			
+			.web-2 {
+				height: 200px;
+				width: 850px;
+				background: white;
+				/*border: 1px solid red;*/
+				position: absolute;
+				top: 740px;
+				left: 35px;
+				color: lightseagreen;
+			}
+			
+			.web-2 div {
+				margin-left: 15px;
+				margin-top: 5px;
+			}
+			
+			.web-2 a {
+				color: lightseagreen;
+				text-decoration: none;
+			}
+			
+			.web-2 a:hover{
+				color: black;
+			}
+			.web-2 img {
+				transition: all 2s linear;
+			}
+			
+			.web-2 img:hover {
+				transform: scale(1.2);
+			}
+			
+			.web-2 span {
+				margin-left: 12px;
+			}
+			
+			.web-3 {
+				height: 200px;
+				width: 850px;
+				background: white;
+				/*border: 1px solid red;*/
+				position: absolute;
+				top: 960px;
+				left: 35px;
+				color: lightseagreen;
+			}
+			
+			.web-3 div {
+				margin-left: 15px;
+				margin-top: 5px;
+			}
+			
+				.web-3 a {
+				color: lightseagreen;
+				text-decoration: none;
+			}
+			
+			.web-3 a:hover{
+				color: black;
+			}
+			
+			.web-3 img {
+				transition: all 2s linear;
+			}
+			
+			.web-3 img:hover {
+				transform: scale(1.2);
+			}
+			
+			.web-3 span {
+				margin-left: 12px;
+			}
+			
+			.web-4 {
+				height: 200px;
+				width: 850px;
+				background: white;
+				/*border: 1px solid red;*/
+				position: absolute;
+				top: 1180px;
+				left: 35px;
+				color: lightseagreen;
+			}
+			
+			.web-4 div {
+				margin-left: 15px;
+				margin-top: 5px;
+			}
+			
+				.web-4 a {
+				color: lightseagreen;
+				text-decoration: none;
+			}
+			
+			.web-4 a:hover{
+				color: black;
+			}
+			
+			.web-4 img {
+				transition: all 2s linear;
+			}
+			
+			.web-4 img:hover {
+				transform: scale(1.2);
+			}
+			
+			.web-4 span {
+				margin-left: 12px;
+			}
+			
+
+
+			.web-5{
+				height: 200px;
+				width: 850px;
+				background: white;
+				/*border: 1px solid red;*/
+				position: absolute;
+				top: 1400px;
+				left: 35px;
+				color: lightseagreen;
+			}
+			
+			.web-5 div {
+				margin-left: 15px;
+				margin-top: 5px;
+			}
+			
+				.web-5 a {
+				color: lightseagreen;
+				text-decoration: none;
+			}
+			
+			.web-5 a:hover{
+				color: black;
+			}
+			
+			.web-5 img {
+				transition: all 2s linear;
+			}
+			
+			.web-5 img:hover {
+				transform: scale(1.2);
+			}
+			
+			.web-5 span {
+				margin-left: 12px;
+			}
+			
+
+
+			.web-6{
+				height: 200px;
+				width: 850px;
+				background: white;
+				/*border: 1px solid red;*/
+				position: absolute;
+				top: 1620px;
+				left: 35px;
+				color: lightseagreen;
+			}
+			
+			.web-6 div {
+				margin-left: 15px;
+				margin-top: 5px;
+			}
+			
+				.web-6 a {
+				color: lightseagreen;
+				text-decoration: none;
+			}
+			
+			.web-6 a:hover{
+				color: black;
+			}
+			
+			.web-6 img {
+				transition: all 2s linear;
+			}
+			
+			.web-6 img:hover {
+				transform: scale(1.2);
+			}
+			
+			.web-6 span {
+				margin-left: 12px;
+			}
+			
+
+			.web-7{
+				height: 200px;
+				width: 850px;
+				background: white;
+				/*border: 1px solid red;*/
+				position: absolute;
+				top: 1840px;
+				left: 35px;
+				color: lightseagreen;
+			}
+			
+			.web-7 div {
+				margin-left: 15px;
+				margin-top: 5px;
+			}
+			
+				.web-7 a {
+				color: lightseagreen;
+				text-decoration: none;
+			}
+			
+			.web-7 a:hover{
+				color: black;
+			}
+			
+			.web-7 img {
+				transition: all 2s linear;
+			}
+			
+			.web-7 img:hover {
+				transform: scale(1.2);
+			}
+			
+			.web-7 span {
+				margin-left: 12px;
+			}
+			
+
+
+			.web-8{
+				height: 200px;
+				width: 850px;
+				background: white;
+				/*border: 1px solid red;*/
+				position: absolute;
+				top: 2060px;
+				left: 35px;
+				color: lightseagreen;
+			}
+			
+			.web-8 div {
+				margin-left: 15px;
+				margin-top: 5px;
+			}
+			
+				.web-8 a {
+				color: lightseagreen;
+				text-decoration: none;
+			}
+			
+			.web-8 a:hover{
+				color: black;
+			}
+			
+			.web-8 img {
+				transition: all 2s linear;
+			}
+			
+			.web-8 img:hover {
+				transform: scale(1.2);
+			}
+			
+			.web-8 span {
+				margin-left: 12px;
+			}
+			
+
+
+			.web-9{
+				height: 200px;
+				width: 850px;
+				background: white;
+				/*border: 1px solid red;*/
+				position: absolute;
+				top: 2280px;
+				left: 35px;
+				color: lightseagreen;
+			}
+			
+			.web-9 div {
+				margin-left: 15px;
+				margin-top: 5px;
+			}
+			
+				.web-9 a {
+				color: lightseagreen;
+				text-decoration: none;
+			}
+			
+			.web-9 a:hover{
+				color: black;
+			}
+			
+			.web-9 img {
+				transition: all 2s linear;
+			}
+			
+			.web-9 img:hover {
+				transform: scale(1.2);
+			}
+			
+			.web-9 span {
+				margin-left: 12px;
+			}
+			
+
+
+			.web-10{
+				height: 200px;
+				width: 850px;
+				background: white;
+				/*border: 1px solid red;*/
+				position: absolute;
+				top: 2500px;
+				left: 35px;
+				color: lightseagreen;
+			}
+			
+			.web-10 div {
+				margin-left: 15px;
+				margin-top: 5px;
+			}
+			
+				.web-10 a {
+				color: lightseagreen;
+				text-decoration: none;
+			}
+			
+			.web-10 a:hover{
+				color: black;
+			}
+			
+			.web-10 img {
+				transition: all 2s linear;
+			}
+			
+			.web-10 img:hover {
+				transform: scale(1.2);
+			}
+			
+			.web-10 span {
+				margin-left: 12px;
+			}
+			
+
+
+		
+				
+			
+			.ye1{height: 50px;
+				width: 850px;
+				background: white;
+				
+				position: absolute;
+				top: 2720px;
+				left: 35px;
+				color: lightseagreen;
+					
+				line-height: 50px;
+				text-align: center;
+				line-height: 5px;
+				/*font-size: 0;*/
+			}
+			
+		 .ye1 div{
+		 	display: inline-block;
+			height: 30px;
+			width:30px;
+			background:gainsboro;
+			
+			margin-top: 10px;
+			
+			line-height: 30px;
+			
+		}
+		
+		.ye1 a{
+			text-decoration: none;
+			color: black;
+		}
+		.ye1 div:hover{
+			background: lightseagreen;
+		}
+		
+		
