@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			.div-1{
+				width: 200px;
+				height:200px;
+				border: 1px solid black;
+				
+				
+				display: flex;
+				
+				 /*#变形盒子方向*/
+				/*flex-direction: row-reverse;*/
+				
+				/*flex-wrap 属性规定flex容器是单行或者多行，同时横轴的方向决定了新行堆叠的方向*/
+				/*flex-wrap:wrap ;*/
+				
+				/*justify-content 用于设置或检索弹性盒子元素在主轴（横轴）方向上的对齐方式。*/
+				/*justify-content: center;*/
+				
+				/*使用 align-content 属性对齐交叉轴上的各项（垂直）*/
+				align-content: center;
+				
+				/*align-items 属性定义flex子项在flex容器的当前行的侧轴（纵轴）方向上的对齐方式*/
+				/*align-items: center;*/
+			}
+			
+			.div1{
+				width: 50px;
+				height: 50px;
+				background: red;
+				
+				/*#层级排序*/
+				order: 2;
+				
+				/*#空间不够时,是否可挤压   1表示可挤压 0表示不可挤压*/
+				/*flex-shrink: 0;*/
+				
+				/*#空间够时,是否可放大   1表示可放大 0表示不可放大*/
+				flex-grow: 1;
+			}
+			
+				.div2{
+				width: 50px;
+				height: 50px;
+				background: blue;
+				order: 1;
+				flex-shrink: 0;
+				flex-grow: 1;
+			}
+			
+					.div3{
+				width: 50px;
+				height: 50px;
+				background: yellow;
+				order: 3;
+				flex-shrink: 1;
+				flex-grow: 1;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="div-1">
+			<div class="div1"></div>
+			<div class="div2"></div>
+			<div class="div3"></div>
+			
+		</div>
+	</body>
+</html>
